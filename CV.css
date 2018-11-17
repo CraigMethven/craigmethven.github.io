@@ -1,0 +1,114 @@
+body {
+  background-color: rgb(235, 240, 240);
+  font-family: 'Niramit', sans-serif;
+}
+
+header {
+  background-color: rgb(102, 162, 152);
+  font-size: 20px;
+}
+
+footer {
+  background-color: rgb(079, 131, 122);
+}
+
+.colorMain {
+  color: rgb(079, 131, 122);
+}
+
+.colourSub {
+  color: rgb(102, 162, 152);
+}
+
+.colourHighlight1 {
+  color: rgb(60, 200, 200);
+}
+
+.colourHighlight2 {
+  color: rgb(175, 90, 160);
+}
+
+main {
+  background-image: url("https://picsum.photos/1600/900");
+  height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 172px;
+}
+
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 70px;
+}
+
+h3 {
+  font-size: 52px;
+}
+
+h4 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 35px;
+  color: rgb(175, 90, 160);
+}
+
+footer {
+  font-size: 20px;
+}
+
+a:link {
+  color: rgb(60, 200, 200);
+}
+
+a:visited {
+  color: rgb(60, 200, 200);
+}
+
+a:hover {
+  color: rgb(175, 90, 160);
+}
+
+a:active {
+  color: rgb(175, 90, 160);
+}
+
+.links {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.button {
+  background-color: rgb(175, 90, 160);
+}
+
+p.card-text {
+  font-size: 20px;
+}
+
+img.card-img-top {
+  min-height: 100%;
+  min-width: 100%;
+  left: -100%;
+  right: -100%;
+  top: -100%;
+  bottom: -100%;
+}
+
+.card{
+  text-align: center;
+}
+
+.image {
+  height: 145px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  border-style: solid;
+  border-color: rgb(175, 90, 160);
+}
+
+.card{
+  padding: 10px
+}
