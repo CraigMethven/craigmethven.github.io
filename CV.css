@@ -32,7 +32,7 @@ footer {
   color: rgb(175, 90, 160);
 }
 
-main {
+.homeMain {
   background-image: url("https://picsum.photos/1600/900");
   height: 100vh;
   padding: 20px;
@@ -109,7 +109,68 @@ img.card-img-top {
   border-color: rgb(175, 90, 160);
 }
 
+.topimage{
+  height: 70px;
+  width: 96%;
+  overflow: hidden;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px;
+}
+
 .card{
   padding: 20px;
   padding-bottom: 0px;
+}
+
+.grid-container{
+  width: 100%;
+}
+
+.project{
+  background-color: rgb(102, 162, 152);
+  border-width: 10px;
+  border-color: rgb(079, 131, 122);
+  padding: 15px;
+  height:100%;
+  padding-bottom: 60px;
+}
+
+.container{
+  padding: 20px;
+}
+
+.smallerText1{
+  font-size: 60px;
+  color: rgb(175, 90, 160);
+}
+
+.smallerText2{
+  font-size: 45px;
+  color: rgb(60, 200, 200);
+}
+
+.smallerText3{
+  font-size: 45px;
+  color: rgb(175, 90, 160);
+}
+
+.textTitle{
+  color: rgb(079, 131, 122);
+  font-size: 70px;
+  text-decoration: underline;
+}
+
+.title{
+  width: 100%;
+}
+
+ul {
+    list-style-type: square;
+}
+
+h1.smallerText2{
+  position: absolute;
+  bottom: 10px;
 }
