@@ -188,6 +188,12 @@ h1.smallerText2{
   padding: 20px;
 }
 
+.meMain {
+  background-image: url("pics/uni.jpg");
+  height: 100vh;
+  padding: 20px;
+}
+
 .imageSub {
   height: 256px;
   width: 100%;
@@ -233,4 +239,14 @@ h1.smallerText2{
 .map{
   margin-left: auto;
   margin-right: auto;
+}
+
+.alignLeft{
+  text-align: left;
+}
+
+.onlineMain{
+  background-image: url("pics/community.png");
+  height: 100vh;
+  padding: 20px;
 }
