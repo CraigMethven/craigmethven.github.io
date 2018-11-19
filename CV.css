@@ -2,6 +2,21 @@ body {
   background-color: rgb(235, 240, 240);
   font-family: 'Niramit', sans-serif;
 }
+a:link {
+  color: rgb(60, 200, 200);
+}
+
+a:visited {
+  color: rgb(60, 200, 200);
+}
+
+a:hover {
+  color: rgb(175, 90, 160);
+}
+
+a:active {
+  color: rgb(175, 90, 160);
+}
 
 header {
   background-color: rgb(102, 162, 152);
@@ -57,21 +72,7 @@ h4 {
   color: rgb(175, 90, 160);
 }
 
-a:link {
-  color: rgb(60, 200, 200);
-}
 
-a:visited {
-  color: rgb(60, 200, 200);
-}
-
-a:hover {
-  color: rgb(175, 90, 160);
-}
-
-a:active {
-  color: rgb(175, 90, 160);
-}
 
 .links {
   margin-top: 40px;
@@ -173,4 +174,35 @@ ul {
 h1.smallerText2{
   position: absolute;
   bottom: 10px;
+}
+
+.javaMain {
+  background-image: url("pics/projects.png");
+  height: 100vh;
+  padding: 20px;
+}
+
+.pythonMain {
+  background-image: url("pics/python.png");
+  height: 100vh;
+  padding: 20px;
+}
+
+.imageSub {
+  height: 256px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  border-style: solid;
+  border-color: rgb(175, 90, 160);
+}
+
+.mid{
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.underline{
+  text-decoration: underline;
 }
