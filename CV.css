@@ -177,13 +177,13 @@ h1.smallerText2{
 }
 
 .javaMain {
-  background-image: url("pics/projects.png");
+  background-image: url("pics/Projects.png");
   height: 100vh;
   padding: 20px;
 }
 
 .pythonMain {
-  background-image: url("pics/python.png");
+  background-image: url("pics/Python.png");
   height: 100vh;
   padding: 20px;
 }
@@ -219,3 +219,18 @@ h1.smallerText2{
 	div:hover > .hover {
     opacity: 1;
   }
+
+.subPageTitle{
+  color: rgb(079, 131, 122);
+  font-size: 128px;
+  text-decoration: underline;
+}
+
+.borderNone{
+  border-style: none;
+}
+
+.map{
+  margin-left: auto;
+  margin-right: auto;
+}
