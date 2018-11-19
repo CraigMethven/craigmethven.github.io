@@ -157,6 +157,10 @@ img.card-img-top {
   color: rgb(175, 90, 160);
 }
 
+.smallerText4{
+  font-size: 72px;
+}
+
 .textTitle{
   color: rgb(079, 131, 122);
   font-size: 70px;
@@ -236,6 +240,10 @@ h1.smallerText2{
   border-style: none;
 }
 
+.alignRight{
+  text-align: right;
+}
+
 .map{
   margin-left: auto;
   margin-right: auto;
@@ -249,4 +257,18 @@ h1.smallerText2{
   background-image: url("pics/community.png");
   height: 100vh;
   padding: 20px;
+}
+
+.largeText{
+  font-size: 192px;
+  text-align: center;
+}
+
+.float-right {
+  overflow:hidden;
+}
+
+.leftPadding{
+  padding-left: 300px;
+  padding-right: 300px;
 }
