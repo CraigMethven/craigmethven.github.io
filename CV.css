@@ -206,3 +206,16 @@ h1.smallerText2{
 .underline{
   text-decoration: underline;
 }
+
+.hover {
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+	div:hover > .hover {
+    opacity: 1;
+  }
