@@ -2,6 +2,26 @@ body {
   background-color: rgb(235, 240, 240);
   font-family: 'Niramit', sans-serif;
 }
+
+header {
+  background-color: rgb(102, 162, 152);
+  font-size: 20px;
+}
+
+footer {
+  background-color: rgb(079, 131, 122);
+  bottom: 0;
+  font-size: 20px;
+  border: 0px;
+  padding: 5px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+
+
 a:link {
   color: rgb(60, 200, 200);
 }
@@ -18,18 +38,7 @@ a:active {
   color: rgb(175, 90, 160);
 }
 
-header {
-  background-color: rgb(102, 162, 152);
-  font-size: 20px;
-}
 
-footer {
-  background-color: rgb(079, 131, 122);
-  bottom: 0;
-  font-size: 20px;
-  border: 0px;
-  padding: 5px;
-}
 
 .colorMain {
   color: rgb(079, 131, 122);
@@ -47,42 +56,39 @@ footer {
   color: rgb(175, 90, 160);
 }
 
+
+
 .homeMain {
   background-image: url("https://picsum.photos/1600/900");
   height: 100vh;
   padding: 20px;
 }
 
-h1 {
-  font-size: 172px;
+.javaMain {
+  background-image: url("pics/Projects.png");
+  height: 100vh;
+  padding: 20px;
 }
 
-h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 70px;
+.pythonMain {
+  background-image: url("pics/Python.png");
+  height: 100vh;
+  padding: 20px;
 }
 
-h3 {
-  font-size: 52px;
+.meMain {
+  background-image: url("pics/uni.jpg");
+  height: 100vh;
+  padding: 20px;
 }
 
-h4 {
-  font-family: 'Fira Sans', sans-serif;
-  font-size: 35px;
-  color: rgb(175, 90, 160);
+.onlineMain{
+  background-image: url("pics/community.png");
+  height: 100vh;
+  padding: 20px;
 }
 
 
-
-.links {
-  margin-top: 40px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.button {
-  background-color: rgb(175, 90, 160);
-}
 
 p.card-text {
   font-size: 20px;
@@ -99,7 +105,11 @@ img.card-img-top {
 
 .card{
   text-align: center;
+  padding: 20px;
+  padding-bottom: 0px;
 }
+
+
 
 .image {
   height: 145px;
@@ -120,14 +130,16 @@ img.card-img-top {
   padding: 3px;
 }
 
-.card{
-  padding: 20px;
-  padding-bottom: 0px;
+.imageSub {
+  height: 256px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  border-style: solid;
+  border-color: rgb(175, 90, 160);
 }
 
-.grid-container{
-  width: 100%;
-}
+
 
 .project{
   background-color: rgb(102, 162, 152);
@@ -138,8 +150,67 @@ img.card-img-top {
   padding-bottom: 60px;
 }
 
+.title{
+  width: 100%;
+}
+
+.grid-container{
+  width: 100%;
+}
+
+.mid{
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.leftPadding{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .container{
   padding: 20px;
+}
+
+.borderNone{
+  border-style: none;
+}
+
+.links {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.button {
+  background-color: rgb(175, 90, 160);
+}
+
+
+
+h1 {
+  font-size: 172px;
+}
+
+h1.smallerText2{
+  position: absolute;
+  bottom: 10px;
+}
+
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 70px;
+}
+
+h3 {
+  font-size: 52px;
+}
+
+h4 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 35px;
+  color: rgb(175, 90, 160);
 }
 
 .smallerText1{
@@ -167,55 +238,22 @@ img.card-img-top {
   text-decoration: underline;
 }
 
-.title{
-  width: 100%;
-}
-
-ul {
-    list-style-type: square;
-}
-
-h1.smallerText2{
-  position: absolute;
-  bottom: 10px;
-}
-
-.javaMain {
-  background-image: url("pics/Projects.png");
-  height: 100vh;
-  padding: 20px;
-}
-
-.pythonMain {
-  background-image: url("pics/Python.png");
-  height: 100vh;
-  padding: 20px;
-}
-
-.meMain {
-  background-image: url("pics/uni.jpg");
-  height: 100vh;
-  padding: 20px;
-}
-
-.imageSub {
-  height: 256px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  border-style: solid;
-  border-color: rgb(175, 90, 160);
-}
-
-.mid{
-  margin-top: 40px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
 .underline{
   text-decoration: underline;
 }
+
+.subPageTitle{
+  color: rgb(079, 131, 122);
+  font-size: 128px;
+  text-decoration: underline;
+}
+
+.largeText{
+  font-size: 192px;
+  text-align: center;
+}
+
+
 
 .hover {
   opacity: 0.4;
@@ -225,28 +263,14 @@ h1.smallerText2{
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
 }
-
 	div:hover > .hover {
     opacity: 1;
   }
 
-.subPageTitle{
-  color: rgb(079, 131, 122);
-  font-size: 128px;
-  text-decoration: underline;
-}
 
-.borderNone{
-  border-style: none;
-}
 
 .alignRight{
   text-align: right;
-}
-
-.map{
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .alignLeft{
@@ -257,22 +281,9 @@ h1.smallerText2{
   text-align: center;
 }
 
-.onlineMain{
-  background-image: url("pics/community.png");
-  height: 100vh;
-  padding: 20px;
-}
 
-.largeText{
-  font-size: 192px;
-  text-align: center;
-}
 
-.float-right {
-  overflow:hidden;
-}
-
-.leftPadding{
-  padding-left: 30px;
-  padding-right: 30px;
+.map{
+  margin-left: auto;
+  margin-right: auto;
 }
