@@ -253,6 +253,10 @@ h1.smallerText2{
   text-align: left;
 }
 
+.alignCenter{
+  text-align: center;
+}
+
 .onlineMain{
   background-image: url("pics/community.png");
   height: 100vh;
@@ -269,6 +273,6 @@ h1.smallerText2{
 }
 
 .leftPadding{
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
