@@ -3,7 +3,9 @@
 
 <head>
   <meta charset="utf-8">
+  <!--  Title of the page-->
   <title>CV Home Page</title>
+  <!--  Import Style Sheets-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Niramit|Open+Sans+Condensed:300" rel="stylesheet">
@@ -11,6 +13,7 @@
 </head>
 
 <body>
+  <!--  Header with the nav bar-->
   <header>
     <ul class="nav justify-content-end">
       <li class="nav-item">
@@ -29,6 +32,7 @@
   </header>
 
   <main>
+    <!--  Main section with a background image of me and some text.-->
     <section class="homeMain">
       <section class="colourHighlight1">
         <br>
@@ -40,26 +44,32 @@
         <br>
         <h1> Craig Methven </h1>
         <h2> Computing Science Student that Studies at Dundee University </h2>
+        <!--  Link to scroll down-->
         <h3><a href="#links">Click to see more!<a></h3>
       </section>
     </section>
   </main>
 
-
+  <!--  Div so the scroll down works-->
   <div id="links">
     <section class="links">
+      <!--  Divs so that the card becomes less opaque when hovered over-->
       <div>
         <div class="hover">
+          <!--  Starts a card from the bootstrap template-->
           <div class="card mb-3">
+            <!--  Links image and title to the correct page-->
             <a href="aboutMe.html">
               <h3 class="card-title">About Me and Education</h3>
               <section class="image">
                 <img src="https://picsum.photos/1550/201" alt="Image of School">
               </section>
             </a>
+            <!--  Text to do with the card-->
             <div class="card-body">
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                 commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <!--  Another link to go to the appropriate page-->
               <a href="aboutMe.html">
                 <h4>Click here for full page!</h4>
               </a>
@@ -68,6 +78,7 @@
         </div>
       </div>
 
+      <!--  Another card with the same format as the first-->
       <div>
         <div class="hover">
           <div class="card mb-3">
@@ -187,8 +198,10 @@
       </div>
     </div>
   </div>
+  </section>
   </div>
 
+  <!--  Footer with contact links-->
   <footer>
     Find me at:
     <a href="https://www.facebook.com/craig.methven.92"><i class="fab fa-facebook-square"></i></a>
