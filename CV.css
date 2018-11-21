@@ -17,10 +17,8 @@ footer {
 }
 
 ul {
-    list-style-type: square;
+  list-style-type: square;
 }
-
-
 
 a:link {
   color: rgb(60, 200, 200);
@@ -38,8 +36,6 @@ a:active {
   color: rgb(175, 90, 160);
 }
 
-
-
 .colorMain {
   color: rgb(079, 131, 122);
 }
@@ -55,8 +51,6 @@ a:active {
 .colourHighlight2 {
   color: rgb(175, 90, 160);
 }
-
-
 
 .homeMain {
   background-image: url("https://picsum.photos/1600/900");
@@ -82,13 +76,11 @@ a:active {
   padding: 20px;
 }
 
-.onlineMain{
+.onlineMain {
   background-image: url("pics/community.png");
   height: 100vh;
   padding: 20px;
 }
-
-
 
 p.card-text {
   font-size: 20px;
@@ -103,13 +95,11 @@ img.card-img-top {
   bottom: -100%;
 }
 
-.card{
+.card {
   text-align: center;
   padding: 20px;
   padding-bottom: 0px;
 }
-
-
 
 .image {
   height: 145px;
@@ -120,7 +110,7 @@ img.card-img-top {
   border-color: rgb(175, 90, 160);
 }
 
-.topimage{
+.topimage {
   height: 70px;
   width: 96%;
   overflow: hidden;
@@ -139,41 +129,43 @@ img.card-img-top {
   border-color: rgb(175, 90, 160);
 }
 
-
-
-.project{
+.project {
   background-color: rgb(102, 162, 152);
   border-width: 10px;
   border-color: rgb(079, 131, 122);
   padding: 15px;
-  height:100%;
+  height: 100%;
   padding-bottom: 60px;
 }
 
-.title{
+.title {
   width: 100%;
 }
 
-.grid-container{
+.grid-container {
   width: 100%;
 }
 
-.mid{
+.mid {
   margin-top: 40px;
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.leftPadding{
+.leftPadding {
   padding-left: 30px;
   padding-right: 30px;
 }
 
-.container{
+.container {
   padding: 20px;
 }
 
-.borderNone{
+[class*="col-"] {
+  padding-bottom: 10px;
+}
+
+.borderNone {
   border-style: none;
 }
 
@@ -187,13 +179,11 @@ img.card-img-top {
   background-color: rgb(175, 90, 160);
 }
 
-
-
 h1 {
   font-size: 172px;
 }
 
-h1.smallerText2{
+h1.smallerText2 {
   position: absolute;
   bottom: 10px;
 }
@@ -213,77 +203,250 @@ h4 {
   color: rgb(175, 90, 160);
 }
 
-.smallerText1{
+.smallerText1 {
   font-size: 60px;
   color: rgb(175, 90, 160);
 }
 
-.smallerText2{
+.smallerText2 {
   font-size: 45px;
   color: rgb(60, 200, 200);
 }
 
-.smallerText3{
+.smallerText3 {
   font-size: 45px;
   color: rgb(175, 90, 160);
 }
 
-.smallerText4{
+.smallerText4 {
   font-size: 72px;
 }
 
-.textTitle{
+.textTitle {
   color: rgb(079, 131, 122);
   font-size: 70px;
   text-decoration: underline;
+  text-align: center;
 }
 
-.underline{
+.underline {
   text-decoration: underline;
 }
 
-.subPageTitle{
+.subPageTitle {
   color: rgb(079, 131, 122);
   font-size: 128px;
   text-decoration: underline;
 }
 
-.largeText{
+.largeText {
   font-size: 192px;
   text-align: center;
 }
-
-
 
 .hover {
   opacity: 0.4;
   top: 0;
   left: 0;
   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
 }
-	div:hover > .hover {
-    opacity: 1;
-  }
 
+div:hover>.hover {
+  opacity: 1;
+}
 
-
-.alignRight{
+.alignRight {
   text-align: right;
 }
 
-.alignLeft{
+.alignLeft {
   text-align: left;
 }
 
-.alignCenter{
+.alignCenter {
   text-align: center;
 }
 
-
-
-.map{
+.map {
   margin-left: auto;
   margin-right: auto;
+}
+
+.maps{
+  width: 750px;
+  height: 450px;
+}
+
+@media only screen and (max-width: 1150px){
+  h1{
+    font-size: 152px;
+  }
+  h2{
+    font-size: 52px;
+  }
+  h3{
+    font-size: 42px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  p.card-text {
+    font-size: 18px;
+  }
+
+  .mid {
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .leftPadding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  .links {
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  h1 {
+    font-size: 112px;
+  }
+
+  h1.smallerText2 {
+    bottom: 5px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  h4 {
+    font-size: 30px;
+  }
+
+  .smallerText1 {
+    font-size: 45px;
+  }
+
+  .smallerText2 {
+    font-size: 35px;
+  }
+
+  .smallerText3 {
+    font-size: 35px;
+  }
+
+  .smallerText4 {
+    font-size: 45px;
+  }
+
+  .textTitle {
+    font-size: 45px;
+  }
+
+  .subPageTitle {
+    font-size: 72px;
+  }
+
+  .largeText {
+    font-size: 112px;
+  }
+
+  .maps{
+    width: 100%;
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  p.card-text {
+    font-size: 12px;
+  }
+
+  .mid {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .leftPadding {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .links {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  h1 {
+    font-size: 86px;
+  }
+
+  h1.smallerText2 {
+    bottom: 5px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .smallerText1 {
+    font-size: 30px;
+  }
+
+  .smallerText2 {
+    font-size: 25px;
+  }
+
+  .smallerText3 {
+    font-size: 25px;
+  }
+
+  .smallerText4 {
+    font-size: 36px;
+  }
+
+  .textTitle {
+    font-size: 35px;
+  }
+
+  .subPageTitle {
+    font-size: 64px;
+  }
+
+  .largeText {
+    font-size: 96px;
+  }
+
+  .maps{
+    width: 100%;
+    height: 250px;
+  }
 }
